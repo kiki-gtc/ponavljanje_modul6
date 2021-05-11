@@ -62,5 +62,8 @@
         </table>
     <?php endif; ?>
     <hr>
+    
+    <br><br><br><br><br><br>
+    Ovo je neki tekst od predavača!
 </body>
 </html>
