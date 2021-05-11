@@ -79,7 +79,8 @@ class Database {
             exit();
 
         } catch(PDOException $e) {
-            return $e->getMessage();
+            $this->connection->rollBack();
+            throw $e; //ovo mi je bilo lakše da vrati na početak
         }
  
     }

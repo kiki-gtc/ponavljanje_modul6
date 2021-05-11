@@ -4,12 +4,12 @@
     $init_db = new Database();
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        if(empty($_POST['tekst'])) {
-            Header('Loction: index.php');
-        }
+        if(empty($_POST['auti'])) {
+            
+        } else {
 
         $init_db->insert($_POST);
-    }
+    } }
 
     $teksts = $init_db->get_all();
 ?>
@@ -25,10 +25,11 @@
 <body>
     <?php
 
-        echo '<h3>Pokušaj polaganja ispita</h3> <br><br>';
+        echo '<h3>Pokušaj popravka :)</h3> <br><br>';
         
 
         echo '<br><br>';
+       
 
     ?>
     <hr>
