@@ -1,0 +1,11 @@
+{
+    "name": "kk-ponavljanje/modul6",    
+    "description": "ponavljanje/modul6",
+    "license": "MIT",
+    "require": {
+        "php" : ">=7.3"
+        },
+    "require-dev": {
+            "phpunit/phpunit" : "^9"
+    }
+}
